@@ -1,0 +1,199 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #030218;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+/* Product Features Section */
+#features {
+    /* background-color: #8d7947; */
+    padding: 40px 0;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    /* background-color: #1096cf; */
+    background-color: #8d7947;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.feature h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 1em;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #eeeeee;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.testimonial h3 {
+    font-size: 1.1em;
+    color: #4CAF50;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background-color: rgb(11, 13, 15);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.plan h3 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.plan p {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    color: white;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .pricing-plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
